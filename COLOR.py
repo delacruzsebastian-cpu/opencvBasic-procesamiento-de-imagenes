@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import os
+#SEBASTIAN DE LA CRUZ GUTIERREZ PUJ
 class colorImage:  #Crear clase
     def __init__(self,path_file):       #se define el constructor
         self.image = cv2.imread(path_file,1) #se carga la imagen via opencv
